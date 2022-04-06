@@ -11,7 +11,7 @@ const ContactPage = () =>{
                     <p className="border-b-2 border-blue-500 pb-3 text-blue-800 text-4xl pt-4"></p>
 
                     <div className="flex justify-center items-center">
-                        <img src="../../public/img.png" className="w-48 rounded-full m-2 shadow-lg "/>
+                        <img src={require('../img/img.png')} alt="Profile picture" className="w-48 rounded-full m-2 shadow-lg "/>
                     </div>
                     <div className="flex justify-center items-center">
                         <p className="pb-3 mt-2 text-blue-800 text-2xl">Phone: +381 64 555 69 15</p>

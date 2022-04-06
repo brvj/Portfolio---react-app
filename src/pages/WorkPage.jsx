@@ -15,7 +15,7 @@ const WorkPage = () => {
                             internship I worked on
                             fullstack web application using Spring Boot framework for back-end part of the application
                             and React library for front-end part of the application. Task was
-                            <a className="underline italic" href="kyoScan-_9_._14_._2021-_9_._16_._05.pdf"
+                            <a className="underline italic" href={require("../pdf/kyoScan-_9_._14_._2021-_9_._16_._05.pdf")}
                                download> successfully</a> finished.
                         </li>
                         <li className="text-black text-xl mt-2 ml-6 mr-6">

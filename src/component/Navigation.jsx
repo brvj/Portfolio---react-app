@@ -47,23 +47,24 @@ const Navigation = () => {
     ];
 
     const addActive = (item, key) =>
-        <div key={key}  className="
-                        mx-8
-                        sm:mx-10
-                        md:mx-40
-                        lg:mx-56
-                        xl:mx-96
-                        ">
-                <div className={location.pathname.startsWith(item.starts) ? 'itemActive' : 'item'}>
-                    {item.content}
-                </div>
+        <div key={key} className={location.pathname.startsWith(item.starts) ? 'itemActive' : 'item'}>
+             {item.content}
         </div>;
 
     const NavigationItemComponent = () => <>{navigationItems.map(addActive)}</>;
 
     return(
         <nav>
+            <div className="grid
+                        grid-cols-1
+                        md:grid-cols-3
+                        mx-8
+                        sm:mx-10
+                        md:mx-40
+                        lg:mx-56
+                        xl:mx-96">
              <NavigationItemComponent/>
+            </div>
         </nav>
     )
 }
