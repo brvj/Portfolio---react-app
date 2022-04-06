@@ -7,6 +7,7 @@ function App() {
   return (
     <BrowserRouter>
         <Routes>
+            <Route path ="/" element={<AboutPage/>} exact/>
             <Route path ="/about" element={<AboutPage/>} exact/>
             <Route path="/work" element={<WorkPage/>} exact/>
             <Route path="/contact" element={<ContactPage/>} exact/>
