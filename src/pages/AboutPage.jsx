@@ -4,7 +4,7 @@ const AboutPage = () => {
     return(
         <StandardLayout>
             <div className="mx-max">
-                <p className="text-blue-800 text-6xl pt-4 text-center">- - - About - - -</p>
+                <p className="text-blue-800 text-6xl pt-4 text-center animate-pulse">- - - About - - -</p>
             </div>
             <div className="bg-yellow-50 mx-8 sm:mx-10 md:mx-40 lg:mx-56 xl:mx-96 mt-8 shadow-2xl rounded-xl">
                 <div className="mx-8 pb-4">
