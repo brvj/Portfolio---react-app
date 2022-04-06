@@ -1,3 +1,20 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+    font-family:
+            system-ui,
+            -apple-system, /* Firefox supports this but not yet `system-ui` */
+            'Segoe UI',
+            Roboto,
+            Helvetica,
+            Arial,
+            sans-serif,
+            'Apple Color Emoji',
+            'Segoe UI Emoji';
+    background: linear-gradient(135deg, #eeedde 25%, transparent 25%) -79px 0, linear-gradient(225deg, #eeedde 25%, transparent 25%) -79px 0, linear-gradient(315deg, #eeedde 25%, transparent 25%), linear-gradient(45deg, #eeedde 25%, transparent 25%);
+    background-size: 158px 158px;
+    background-color: #e0ddaa;
+    font-family: Lato, sans-serif;
+}
